@@ -1,0 +1,9 @@
+[Unit]
+Description=Server Status Checker
+
+[Service]
+ExecStart=bash /home/ubuntu/.config/run.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
